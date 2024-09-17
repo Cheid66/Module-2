@@ -4,11 +4,10 @@ var = 0
 while var < len(my_list):
     if my_list[var] == 0:
         var += 1
-    if my_list[var] > 0:
+    elif my_list[var] > 0:
         print(my_list[var])
         var += 1
-        continue
-    if my_list[var] < 0:
+    else:
         break
 
 
